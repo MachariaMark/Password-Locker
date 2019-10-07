@@ -2,7 +2,7 @@
 
 #### 07.10.2019
 
-#### AUTHOR **Mark Muchiri Macharia**
+#### AUTHOR ~ **Mark Muchiri Macharia**
 
 ## DESCRIPTION
 This is an application where by the user can manage his/her passwords and even generate new passwords.
@@ -16,9 +16,17 @@ A user can ;
 * view their various account credentials and their passwords.
 * delete a credentials account.
 
-## SETUP/INSTALLATION REQUIREMENTS
-In oder to utilize a feature listed above include the appropriate dependency (or dependencies) listed below in your app/build.gradle file.
-###### 
+## PREREQUISITES
+In oder to utilize a feature listed above include the following.
+ 
+Linux platform :
+
+Different flavors of Linux use different package managers for installation of new packages.
+
+On Ubuntu Linux, Python 3 is installed using the following command from the terminal.
+
+######
+    $sudo apt-get install python3-minimal
     
 ## CONTRIBUTING
 Want to contribute? Lovely!
