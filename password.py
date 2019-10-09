@@ -52,10 +52,6 @@ def find_by_account_name(account_name):
     '''
     return Credentials.find_by_account_name(account_name)
 
-# def generate_password(self):
-#     return Credentials.passGen(self)
-
-
 def copy_credential(account_name):
     '''
     Function that copies credentials details.
@@ -80,8 +76,10 @@ def main():
     user_name = input("Enter username >>")
     password = input("Enter password >>")
 
-
-    print(f"Hello {user_name}. what would you like to do?")
+    print('\n')
+    print(f"Brilliant Agent {user_name}. Your in !!")
+    print('\n')
+    print(f"LOGIN SUCCESSFUL {user_name} Let's get to it.")
     print('\n')
 
     while True:
@@ -132,7 +130,7 @@ def main():
 
                     for Credentials in display_credentials(user_name):
                         print(
-                            f"USER NAME >> {Credentials.user_name} ACC NAME >>{Credentials.account_name} PASS>> {Credentials.account_password}")
+                            f"USER NAME >> {Credentials.user_name} ACC NAME >>{Credentials.account_name} PASS >> {Credentials.account_password}")
 
                     print('\n')
                 else:
@@ -154,9 +152,9 @@ def main():
                     print(f"Account name.......{search_account.account_name}")
                 else:
                     print("That credential does not exist")
-
+                    print('\n')
             elif short_code == "ex":
-                print("See ya .......")
+                print("Cheers Mate .......")
                 break
             else:
                 print("I didn't quite get that. Please do use the short codes")
