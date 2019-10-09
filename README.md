@@ -41,6 +41,14 @@ To fix a bug or enhance an existing module, follow these steps:
 * Push to the branch (git push origin improve-feature)
 * Create a Pull Request
 
+### BDD
+| BEHAVIOUR    | INPUT     | OUTPUT     |
+| -------------| :--------:| -----------|
+|Creating account|**INPUT >>**  ac | New credentials  |
+|Displays credentials|**INPUT >>** dc | USER NAME >>  ACC NAME >> PASS >>  |
+|Finds credentials|**INPUT >>** fc | Enter the account you want to search for |
+|Exits the App |**INPUT >>** ex | Cheers Mate |
+
 ## NO KNOWN BUGS
 No known bugs.
 
