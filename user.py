@@ -65,24 +65,6 @@ class Credentials:
         '''
 
         Credentials.credentials_log.remove(self)
-        
-    # def passGen(self):
-    #     print("Would you like to generate a password ? (y/n)")
-    #     answer = input()
-    #     if answer == 'y':
-    #         print("Enter length of the password :")
-    #         length = int (input())
-    #         chars = "abcdefghijklmnopqrstuvwxyziABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()"
-    #         password = ''
-
-    #         for i in range (length):
-    #             password += random.choice(chars)    
-    #         print (password)
-    #         return password
-
-    #     elif answer == 'n':
-    #         print("Enter your preferred password :")
-    #         password = input()
     
     @classmethod
     def display_credentials(cls, user_name):

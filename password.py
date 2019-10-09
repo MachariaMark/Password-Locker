@@ -112,7 +112,8 @@ def main():
                     for _ in range (length):
                         password += random.choice(chars)    
                     print (password)
-                    return password
+                    # return password
+                    
                     
                 elif answer == 'n':
                     print("Enter your preferred password :")
@@ -131,7 +132,7 @@ def main():
 
                     for Credentials in display_credentials(user_name):
                         print(
-                            f"{Credentials.user_name} {Credentials.account_name} .....{Credentials.account_password}")
+                            f"USER NAME >> {Credentials.user_name} ACC NAME >>{Credentials.account_name} PASS>> {Credentials.account_password}")
 
                     print('\n')
                 else:
