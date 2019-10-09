@@ -2,8 +2,6 @@ import pyperclip
 import string
 import random
 
-# result = pyfiglet.figlet_format("password locker", font = "doh" ) 
-# print(result)
 
 class User:
     """
