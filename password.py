@@ -52,8 +52,8 @@ def find_by_account_name(account_name):
     '''
     return Credentials.find_by_account_name(account_name)
 
-def generate_password(self):
-    return Credentials.passGen(self)
+# def generate_password(self):
+#     return Credentials.passGen(self)
 
 
 def copy_credential(account_name):
@@ -109,7 +109,7 @@ def main():
                     chars = "abcdefghijklmnopqrstuvwxyziABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()"
                     password = ''
 
-                    for i in range (length):
+                    for _ in range (length):
                         password += random.choice(chars)    
                     print (password)
                     return password
